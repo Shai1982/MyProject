@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MyWorkOne</string>
+    <string name="textview">TextView</string>
+    <string name="actors_list">Actors List</string>
+    <string name="name">name :</string>
+    <string name="no_information">no information</string>
+    <string name="description">Description :</string>
+    <string name="birth_day">Birth Day :</string>
+    <string name="height">Height :</string>
+    <string name="spouse">Spouse :</string>
+    <string name="children">Children :</string>
+
+    <string name="country">Country :</string>
+    <string name="image">image</string>
+</resources>

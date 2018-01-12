@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+    <LinearLayout
+        android:id="@+id/layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        >
+        <TextView
+            android:id="@+id/txv_name_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            android:text="@string/name"
+            />
+        <TextView
+            android:id="@+id/txv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff"
+            android:text="@string/no_information"
+            android:gravity="start"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/layout_1">
+
+        <TextView
+            android:id="@+id/txv_dob_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            android:text="@string/birth_day"
+
+            />
+        <TextView
+            android:id="@+id/txv_dob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff"
+            android:text="@string/no_information"
+            android:gravity="start"
+
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/layout_3"
+        >
+        <TextView
+            android:id="@+id/txv_country_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            android:text="@string/country"
+
+            />
+        <TextView
+            android:id="@+id/txv_country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff"
+            android:text="@string/no_information"
+            android:gravity="start"
+
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/layout_4">
+
+
+        <TextView
+            android:id="@+id/txv_height_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            android:text="@string/height"
+            />
+
+        <TextView
+            android:id="@+id/txv_height"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff"
+            android:text="@string/no_information"
+            android:gravity="start"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/layout_5">
+        <TextView
+            android:id="@+id/txv_spouse_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            android:text="@string/spouse"
+            />
+        <TextView
+            android:id="@+id/txv_spouse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff"
+            android:text="@string/no_information"
+            android:gravity="start"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/layout_6">
+        <TextView
+            android:id="@+id/txv_children_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            android:text="@string/children"
+
+
+            />
+        <TextView
+            android:id="@+id/txv_children"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff"
+            android:text="@string/no_information"
+            android:gravity="start"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/layout_7"
+        android:layout_marginBottom="15dp">
+
+        <TextView
+            android:id="@+id/txv_description_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            android:text="@string/description"
+            />
+
+        <TextView
+            android:id="@+id/txv_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff"
+            android:text="@string/no_information"
+            android:gravity="start"
+
+            />
+    </LinearLayout>
+
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true">
+        <ImageView
+            android:id="@+id/txv_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:contentDescription="@string/image"
+            android:src="@drawable/ic_launcher_background"
+            android:tag="image"
+            />
+
+    </FrameLayout>
+
+
+
+</RelativeLayout>
